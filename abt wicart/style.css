@@ -1,0 +1,145 @@
+.logo img{
+    width: 50%;
+    position: absolute;
+    top: 15%;
+    left: -170px;
+}
+.lg-phone a{
+text-decoration: none;
+color: #000;
+margin: 20px 10px;
+}
+.lg-phone img{
+    width: 5%;    
+    position: absolute;
+    left: 110px;
+    top:280px;
+}
+.lg-phone h5{    
+    position: absolute;
+    left: 60px;
+    top:330px;
+    font-family:'Edu TAS Beginner', cursive;
+    color: blue;
+}
+.man-cart img{
+    position: absolute;
+    right: 180px;
+    bottom:20px;
+}
+.man-cart h1{
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    color: blue;
+    font-family:'Poppins', sans-serif;
+}
+
+.ban-btn{
+    margin: 1px auto 0;
+}
+
+.ban-btn a{
+    position: absolute;
+    left: 25%;
+    top: 400px;
+    width: 150px;
+    padding: 12px 15px;
+    margin: 0 10px;
+    border: .5px solid rgb(0, 38, 255);
+    border-radius: 7px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;;
+    font-weight: 400;
+    font-size: 20px;
+    z-index: 1;
+}
+.ban-btn img{
+    width: 20px;
+    position: absolute;
+    right:45px;
+    top: 18px;
+}
+.ban-btn a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: blue;
+    z-index: -1;
+    transition: 1s;
+}
+
+.ban-btn a:hover span{
+    width: 100%;
+} 
+
+/*head*/
+
+.head{
+    font-family: 'Poppins', sans-serif;
+    color: blue;
+    line-height: 30px;
+}
+.head h1{
+    font-family: 'Poppins', sans-serif;
+    color: blue;
+    border-bottom: 1px solid blue;
+    padding: 20px;
+    font-size: 40px;
+    line-height: 50px;
+}
+.head p{
+    color: #000;
+}
+@media only screen and (max-width:500px){
+    .lg-phone h5{
+        display: none;
+    }
+    .lg-phone img{
+        display: none;
+    }
+    .man-cart h1{
+        font-size: 22px;
+        position: absolute;
+        top: 30px;
+        left: 300px;
+    }
+    .man-cart img{
+        width: 400px;
+        position: absolute;
+        left: 30px;
+        top: 150px;
+    }
+    .ban-btn{
+        margin: 10px auto;
+    }
+    .ban-btn a{
+        font-size: 20px;
+        position: absolute;
+        top: 520px;
+    }
+}
+
+@media only screen and (max-width:896px){
+    .man-cart h1{
+        font-size: 22px;
+        position: absolute;
+        top: 30px;
+        left:280px;
+    }
+    .man-cart img{
+        width: 500px;
+        position: absolute;
+        top: 300px;
+    }
+    .ban-btn a{
+        font-size: 20px;
+        position: absolute;
+        top: 850px;
+        left: 80px;
+    }
+    }
